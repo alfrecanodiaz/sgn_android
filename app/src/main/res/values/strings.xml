@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Parks</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="introText">Inicio App Parks</string>
+    <string name="listIntro">List Fragment</string>
+    <string name="menuText">Menu</string>
+    <string name="fl1">FL-OPE-03</string>
+    <string name="travesiamenu">Travesia actual</string>
+    <string name="historialmenu">Historial</string>
+    <string name="statusmenu">Estado de la sincronización</string>
+    <!--<string name="sincronizarmenu">Sincronizar</string>-->
+    <string name="sincronizarmenu">Cargar nueva travesia</string>
+    <string name="cerrarsesionmenu">Cerrar Sesión</string>
+    <string name="btnagregarform">Nuevo</string>
+    <string name="rbinicioviaje">Inicio de Viaje</string>
+    <string name="rbfinviaje">Fin de viaje</string>
+    <string name="embarcacion">Embarcación:</string>
+    <string name="fechacabecera">Fecha:</string>
+    <string name="configuracionStart">Configuración</string>
+    <string name="home">Inicio</string>
+    <string name="detalles">Detalles</string>
+    <string name="seleccionar_modulo">Seleccionar Modulo</string>
+
+    <string name="statusSync">Estado de la sincronización: </string>
+    <string name="regSyncOk">Registros sincronizados: </string>
+    <string name="regSyncPending">Registros por sincronizar: </string>
+    <string name="reportarErrores">Reportar Errores</string>
+
+    <string name="destinoTravesia">Destino:</string>
+    <string name="responsableUno">Responsable 1:</string>
+    <string name="responsableDos">Responsable 2:</string>
+    <string name="fechaPartidaTravesia">Fecha de partida:</string>
+
+    <string name="verificadoPor">Verificado por:</string>
+    <string name="revisadoPor">Revisado por:</string>
+
+    <string name="emptyForm">No se han cargado formularios.</string>
+
+    <!-- Titulos Formulario Check -->
+    <string name="tituloCheck1">Descripción</string>
+    <string name="tituloCheck2">Satisfactorio</string>
+    <string name="tituloCheck3">Acciones</string>
+
+    <!-- Estado Formularios -->
+    <string name="pendiente">Pendiente</string>
+    <string name="terminado">Terminado</string>
+    <string name="eliminado">Eliminado</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="borrar">Borrar</string>
+    <string name="Finalizado">Finalizado</string>
+    <string name="editar">Editar</string>
+
+    <!-- Titulos Formulario Compra -->
+    <string name="solicitadoPor">Solicitado por:</string>
+    <string name="enviadoPor">Enviado por:</string>
+    <string name="aprobadoPor">Aprobado por:</string>
+    <string name="area">Area:</string>
+    <string name="empresaGrupo">Empresa del grupo:</string>
+    <string name="prioridad">Prioridad:</string>
+    <string name="tituloProducto">Producto</string>
+    <string name="cantidadSolicitada">Cantidad solicitada</string>
+    <string name="btnAgregarProducto">Agregar producto</string>
+    <string name="ingreseProducto">Ingrese el nombre del producto</string>
+    <string name="ingreseCantidadSolicitada">Ingrese la cantidad solicitada</string>
+    <string name="btnCantidadSolicitada">Cantidad Solicitada</string>
+    <string name="aprobado_por">Aprobado por:</string>
+    <string name="aprobado_fecha">Aprobado fecha:</string>
+    <string name="recibido_por">Recibido por:</string>
+    <string name="recibido_fecha">Recibido fecha:</string>
+    <string name="nro_oc">Nro OC:</string>
+    <string name="avance">Avance</string>
+
+    <string name="sgn">SGN</string>
+    <string name="sgn_desc">SISTEMA DE GESTIÓN NAVAL</string>
+
+    <!-- Titulos Mantenimiento -->
+    <string name="descripcionMatenimiento">Maquinaria</string>
+    <string name="accionesMantenimiento">Mantenimiento</string>
+    <string name="btnAgregarMaquinaria">Agregar maquinaria</string>
+
+    <!-- Radio Buttons Formularios -->
+    <string name="rbSi">Si</string>
+    <string name="rbNo">No</string>
+    <string name="okButton">OK</string>
+    <string name="nextButton">Siguiente</string>
+
+    <!-- Botones Formularios -->
+    <string name="observacion">Obs</string>
+    <string name="gps">Gps</string>
+    <string name="imagen">Img</string>
+    <string name="qr">Qr</string>
+    <string name="btnEliminar">X</string>
+    <string name="title_activity_login">Inicio de Sesión</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="ocultar">Ocultar</string>
+
+    <string name="agregarImagen">Agregar imagen</string>
+    <string name="cambiarImagen">Cambiar imagen</string>
+    <string name="guardarImagen">Guardar imagen</string>
+    <string name="scanearQr">Scanear QR</string>
+
+    <!-- Debug -->
+    <string name="iniciarServicio">Iniciar Servicio</string>
+    <string name="cancelarServicio">Cancelar Servicio</string>
+    <string name="location">Location</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Inicio de Sesión</string>
+    <string name="action_sign_in_short">Ingresar</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="logout">Cerrar sesión</string>
+
+</resources>

@@ -1,0 +1,132 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zentcode02.parks.StartFragment"
+    android:gravity="center_horizontal"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="zentcode02.parks.StartFragment"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/imagensgn"
+            android:layout_marginBottom="3dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/startGrid1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="1"
+                android:background="@color/startGrid1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtStartTravesiaActual"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/ic_travesia_actual"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="50dp"
+                    android:textColor="@color/textWhite"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/startGrid2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="2dp"
+                android:layout_weight="1"
+                android:background="@color/startGrid2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtStartHistorial"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/ic_historial"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="50dp"
+                    android:textColor="@color/textBlack"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/introText"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:textSize="22sp"-->
+        <!--android:layout_marginTop="10dp"/>-->
+
+        <!--<Button-->
+        <!--android:text="@string/travesiamenu"-->
+        <!--android:id="@+id/btnTravesiaActualNav"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:textColor="@color/textWhite"-->
+        <!--android:background="@color/asgardButton"/>-->
+
+        <!--<Button-->
+        <!--android:text="@string/historialmenu"-->
+        <!--android:id="@+id/btnHistorialNav"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:textColor="@color/textWhite"-->
+        <!--android:background="@color/asgardButton"/>-->
+
+        <!--<Button-->
+        <!--android:text="@string/sincronizarmenu"-->
+        <!--android:id="@+id/btnSincronizarNav"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:textColor="@color/textWhite"-->
+        <!--android:background="@color/asgardButton"/>-->
+
+        <!--<Button-->
+        <!--android:text="@string/configuracionStart"-->
+        <!--android:id="@+id/btnConfiguracionStart"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:textColor="@color/textWhite"-->
+        <!--android:background="@color/asgardButton"/>-->
+
+        <!--<Button-->
+        <!--android:text="@string/cerrarsesionmenu"-->
+        <!--android:id="@+id/btnCerrarSesionNav"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:textColor="@color/textWhite"-->
+        <!--android:background="@color/asgardButton"/>-->
+
+    </LinearLayout>
+
+</ScrollView>

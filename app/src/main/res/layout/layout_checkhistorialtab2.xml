@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/rowCheck1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_vertical">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical|center_horizontal">
+
+                <TextView
+                    android:id="@+id/descripcionCheck"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"/>
+                <!-- android:scrollHorizontally="true" -->
+
+            </LinearLayout>
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rgCheck"
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:clickable="false">
+
+                <RadioButton
+                    android:id="@+id/rbSi"
+                    android:text="@string/rbSi"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:clickable="false"/>
+
+                <RadioButton
+                    android:id="@+id/rbNo"
+                    android:text="@string/rbNo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:clickable="false"/>
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:text="@string/observacion"
+                    android:id="@+id/btnObsHistorial"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:gravity="center_vertical|center_horizontal"/>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowCheck2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center|bottom"
+            android:gravity="center_horizontal|center_vertical">
+
+            <include
+                android:id="@+id/includeCheckHistorialTab2"
+                layout="@layout/ok_button_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

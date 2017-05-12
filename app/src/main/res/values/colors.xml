@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#ee394174</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorCustom">#237c9d</color>
+    <color name="rojo">#FF0000</color>
+    <color name="textWhite">#ffffff</color>
+    <color name="textBlack">#000000</color>
+    <color name="asgardButton">#3c8dbc</color>
+    <color name="asgardNav">#3c8dbc</color>
+    <color name="asgardNavDark">#367fa9</color>
+    <color name="btnDefaultBoostrap">#fff</color>
+    <color name="btnDefaultBoostrap2">#ccc</color>
+    <color name="startGrid1">#18506F</color>
+    <color name="startGrid2">#6BC9FF</color>
+    <color name="btnEliminar">#d9534f</color>
+    <color name="btnFinalizar">#5cb85c</color>
+    <color name="btnWarning">#f0ad4e</color>
+</resources>

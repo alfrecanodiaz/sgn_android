@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/rowForm1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:descendantFocusability="blocksDescendants">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_marginBottom="1dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtFormList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:textStyle="bold"
+                    android:gravity="start"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/count_items"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textWhite"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:background="@color/btnWarning"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtSolicitadoPor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:gravity="start"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/txtArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:gravity="start"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <!--<LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:id="@+id/label_avance"
+                android:text="@string/avance"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:clickable="true"
+                android:gravity="start" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_gravity="start|center_vertical"
+                android:gravity="start|center_vertical"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/count_items"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textWhite"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:background="@color/btnWarning"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d3d3d3"
+            android:layout_marginTop="1dp"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rowForm2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <Button
+                        android:id="@+id/btnFormFinalizar"
+                        android:text="@string/finalizar"
+                        android:textColor="@color/textWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:height="40dp"
+                        android:width="100dp"
+                        android:minHeight="0dp"
+                        android:minWidth="0dp"
+                        android:background="@color/btnFinalizar"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_marginTop="2dp">
+
+                    <Button
+                        android:id="@+id/btnFormEliminar"
+                        android:text="@string/borrar"
+                        android:textColor="@color/textWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:height="40dp"
+                        android:width="100dp"
+                        android:minHeight="0dp"
+                        android:minWidth="0dp"
+                        android:background="@color/btnEliminar"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_marginTop="2dp">
+
+                    <Button
+                        android:id="@+id/btnFormEditar"
+                        android:text="@string/editar"
+                        android:textColor="@color/textWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:height="40dp"
+                        android:width="100dp"
+                        android:minHeight="0dp"
+                        android:minWidth="0dp"
+                        android:background="@color/asgardButton"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="5dp">-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:background="#000000"-->
+                    <!--android:layout_marginTop="1dp"/>-->
+
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rowForm3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:id="@+id/txtFormFinalizado"
+            android:text="@string/Finalizado"
+            android:textSize="16sp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:clickable="false"/>
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#000000"-->
+            <!--android:layout_marginTop="1dp"/>-->
+
+    </LinearLayout>
+
+    <!--<TableRow-->
+        <!--android:id="@+id/rowForm3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="2dp"-->
+        <!--android:gravity="center_vertical|center_horizontal"-->
+        <!--android:layout_gravity="center_horizontal|center_vertical">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txtFormFinalizado"-->
+            <!--android:text="@string/Finalizado"-->
+            <!--android:textSize="16sp"-->
+            <!--android:paddingTop="5dp"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center_horizontal|center_vertical"-->
+            <!--android:clickable="false"/>-->
+        <!---->
+
+        <!--</TableRow>-->
+
+</LinearLayout>
